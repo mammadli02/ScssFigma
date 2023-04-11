@@ -1,0 +1,26 @@
+footer{
+    font-family: $headerfontfamily;
+    margin-top: 50px;
+    background-color: footercolor;
+    padding: 25px ;
+    .container{
+        display: flex;
+       justify-content: space-between;
+    h6{
+        font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+color:$secondtexcolor;
+letter-spacing: 0.2px;
+
+/* second-text-color */
+    }
+    .imgss{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    }
+}

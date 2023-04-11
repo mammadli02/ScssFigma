@@ -1,0 +1,53 @@
+@mixin linkbuttton($bgc,$color) {
+    padding: 15px 40px;
+gap: 10px;
+
+width: 193px;
+height: 52px;
+color: $color;
+/* primary-color */
+text-decoration: none;
+background: $bgc;
+border-radius: 5px;
+border: 1px solid $headergreen;
+
+}
+@mixin h6($clr){
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    /* identical to box height, or 171% */
+    
+    text-align: center;
+    letter-spacing: 0.2px;
+    
+    /* second-text-color */
+    
+    color: $clr;
+}
+@mixin h2 ($cl){
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    /* or 125% */
+    
+    letter-spacing: 0.2px;
+    
+    /* text-color */
+    
+    color: $cl;
+}
+@mixin  p($colo) {
+    font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: $colo;
+}

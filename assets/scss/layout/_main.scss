@@ -1,0 +1,724 @@
+body{
+  font-family: $headerfontfamily;;
+}
+main{
+  
+    
+#future{
+   position: relative;
+   z-index: 99;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding: 200px 0px ;
+   
+   .col-12{
+      text-align: center;
+      h5{
+       font-style: normal;
+       font-weight: 700;
+       font-size: 16px;
+       line-height: 24px;
+       /* identical to box height, or 150% */
+       text-decoration: none;
+       letter-spacing: 0.1px;
+       
+       /* primary-color */
+       
+       color: $headergreen;
+   }
+   h2{
+      @include h2($headertextcolor)
+//     
+   }
+   h4{
+       font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+/* or 150% */
+
+text-align: center;
+letter-spacing: 0.2px;
+
+color: $secondtexcolor;
+margin-bottom: 40px;
+   }
+   .link1{
+       @include linkbuttton ($headergreen,$mainwhite)
+   }
+   .link2{
+       @include linkbuttton ($mainwhite,$headergreen)
+   }
+}
+}
+#icons{
+   .col-12{
+   display: flex;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+.container{
+   width: 80%;
+   margin: 0 auto;
+
+}
+}
+#quick{
+   padding: 100px 0px;
+   flex-wrap: wrap;
+  
+   .row{
+
+   
+   .quick-top{
+       text-align: left;
+       h6{
+           
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+letter-spacing: 0.2px;
+color: $headergreen;
+
+       }
+       h2{
+         @include h2($headertextcolor)
+// 
+       }
+       p{
+         @include p($secondtexcolor)
+//     
+       }
+   }
+}
+}
+
+}
+#card3{
+
+  .card{
+   background-color: $headergreen;
+      h5{
+       color: $mainwhite;
+      }
+      p{
+       color: $mainwhite;
+      }
+  
+  }
+}
+.cards{
+   display: flex;
+   flex-wrap: wrap;
+justify-content: space-between;
+margin-top: 50px;
+.card2{
+   padding: 30px 30px 30px 0;
+.card{
+
+
+   background: $mainwhite;
+   margin-top: 80px;
+/* accentued-drop-shadow */
+margin-left: 30px;
+box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+text-align: left;
+padding: 25px 35px;
+}
+h5{
+   @extend %h5;
+//
+}
+.hr{
+   width: 50px;
+height: 2px;
+margin: 20px 0px;
+
+/* danger-color */
+
+background: $orange;
+}
+p{
+   @include p($secondtexcolor)
+// 
+}
+
+}
+
+}
+
+#popularcourse{
+
+  
+display: flex;
+align-items: center;
+flex-direction: column;
+flex-wrap: wrap;
+.col-12{
+   display: flex;
+
+
+flex-wrap: wrap;
+
+
+.parag{
+   padding: 100px 100px;
+   .para{
+.hr{
+   width: 50px;
+   height: 2px;
+   margin: 20px 0px;
+   
+   
+   background: $orange;
+}
+
+h2{
+   @include h2($headertextcolor)
+
+}
+p{
+
+@include p($secondtexcolor);
+margin: 35px 0;
+}
+a{
+   font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.2px;
+
+
+color: $headergreen;
+text-decoration: none;
+}
+   }
+}
+}
+}
+#health{
+   padding: 100px 0px;
+  background-color: $bodygreen;
+  display: flex;
+  flex-wrap: wrap;
+   
+   .row{
+
+   
+   .health-top{
+       text-align: left;
+       h6{
+          
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.2px;
+
+color: $headergreen;
+
+       }
+       h2{
+         @include h2($headertextcolor)
+
+       }
+       p{
+         @include p($secondtexcolor)
+//           
+   }
+}
+   .cart{
+      margin-top: 112px;
+display: flex;
+flex-wrap: wrap;
+padding-bottom: 30px;
+.cartmain{
+   margin-top: 20px;
+        
+  
+ .row{
+   position: relative;
+ 
+   .sale{
+      width: 51px;
+      height: 24px;
+      left: 20px;
+      top: 20px;
+      position: absolute;
+      top: 20px;
+      left: 20px;
+      padding: 0px 10px;
+      /* danger-color */
+      color: $mainwhite;
+      
+      background: $orange;
+      /* light-drop-shadow */
+      
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 3px;
+      font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+text-align: center;
+letter-spacing: 0.2px;
+   }
+  
+   .icons{
+
+   bottom: 10px;
+   position: absolute;
+      i{
+         background-color: $mainwhite;
+       border-radius: 50%;
+        color: $black;
+        font-size: 15px ;
+       
+        padding: 10px;
+        margin-left: 20px;
+      }
+   }
+   }
+      .cardwrite{
+         
+         padding-right:  30px;
+      
+
+      .cartt{
+          background-color: $mainwhite;
+padding: 15px;
+         h6{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 24px;
+       
+            
+            letter-spacing: 0.2px;
+            
+            
+            
+            color: $headergreen;
+            display: inline-block;
+            margin-right: 30px;
+         }
+         .boxx{
+            display: inline-block;
+            background: $gray;
+border-radius: 20px;
+padding: 5px;
+i{
+ color: $yellow;
+}
+span{
+   color: $mainwhite;
+}
+         }
+h5{
+   @extend %h5;
+//
+
+}
+p{
+   @include p($secondtexcolor)
+//  
+}
+.fa-download{
+   color: $secondtexcolor;
+   display: inline-block;
+}
+h3{
+   display: inline-block;
+   font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: $secondtexcolor;
+}
+.h4{
+   display: inline-block;
+   font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.1px;
+margin: 15px 30px;
+
+
+
+color: $grey;
+}
+.h2h4{
+   display: inline-block;
+   font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+
+text-align: center;
+letter-spacing: 0.1px;
+margin: 15px 30px;
+
+
+color: #FFAB71;
+}
+.fa-clock{
+   color: $headergreen;
+}
+.fa-swatchbook{
+   color: #E77C40;
+}
+a{
+   display: block;
+   font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.2px;
+
+color: $headergreen;
+border: 1px solid $headergreen;
+border-radius: 37px;
+padding: 5px;
+text-align: center;
+text-decoration: none;
+font-size: 20px;
+margin-top: 36px;
+}
+         }
+         
+      }
+      
+      
+   }
+}
+   }
+   }
+#practica{
+   padding: 100px 0px;
+   flex-wrap: wrap;
+   
+   
+   .row{
+
+      .col-12{
+
+   
+   display: flex;
+   flex-wrap: wrap;
+   .practica-top{
+       text-align: left;
+       h6{
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+/* identical to box height, or 171% */
+
+letter-spacing: 0.2px;
+
+
+
+color: $headergreen;
+
+       }
+       h2{
+         @include h2($headertextcolor)
+// 
+       }
+       p{
+         @include p($secondtexcolor)
+//        
+       }
+      }
+   }
+}
+.footcart{
+   margin-top: 100px;
+   padding: 80px;
+   text-align: left;
+   box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+
+   .fa-heart{
+      background: $headergreen;
+border-radius: 200px;
+color: $mainwhite;
+padding:10px;
+font-size: 40px;
+   }
+   h3{
+      color: $headertextcolor;
+      font-style: normal;
+font-weight: 700;
+font-size: 24px;
+margin: 25px 0;
+line-height: 32px;
+
+letter-spacing: 0.1px;
+   }
+   .text{
+      font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.2px;
+
+
+
+color: $secondtexcolor;
+   }
+}
+h2{
+   @include h2($headergreen)
+
+
+}
+.month{
+   font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+
+
+letter-spacing: 0.2px;
+
+
+color: #8EC2F2;
+}
+p{
+
+margin: 25px 0;
+@include p($secondtexcolor)
+
+}
+a{
+   background: $headergreen;
+border-radius: 5px;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 22px;
+
+
+text-align: center;
+letter-spacing: 0.2px;
+
+
+margin: 35px 0;
+display: block;
+color: $mainwhite;
+text-align: center;
+text-decoration: none;
+padding: 15px 40px;
+}
+.fa-circle-check{
+   padding: 3px;
+   color: $mainwhite;
+   border-radius: 200px;
+}
+.green{
+   background: #2DC071;
+   
+}
+.gray{
+   background-color: $secondtexcolor;
+}
+h6{
+   display: inline-block;
+   @include h6($headertextcolor)
+   
+
+}
+}
+
+#test{
+   padding: 100px 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+
+   
+   .row{
+
+   
+   .test-top{
+       text-align: left;
+       margin-bottom: 100px;
+       h6{
+           /* h6 */
+
+
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+
+color: $headergreen;
+
+       }
+       h2{
+         @include h2($headertextcolor)
+
+
+       }
+       p{
+         @include p($secondtexcolor)
+//           
+   }
+}
+}
+.row{
+   .sectionbootom{
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+   flex-wrap: wrap;
+      .col-4{
+         .imgcartt{
+            text-align: center;
+            margin-top: 20px;
+img{
+ border-radius: 50%;
+ 
+}
+.imgpara{
+   font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+/* or 143% */
+
+
+letter-spacing: 0.2px;
+
+/* second-text-color */
+
+color: $secondtexcolor;
+margin: 30px 0px;
+}
+h5{
+   @extend %h5;
+
+}
+h6{
+   @include h6($secondtexcolor)
+}
+
+         }
+      }
+   }
+}
+}
+
+#news{
+   padding: 100px 0px;
+
+  display: flex;
+  flex-wrap: wrap;
+
+   
+   
+   .row{
+
+   
+   .news-top{
+       text-align: center;
+       margin-bottom: 100px;
+       h6{
+           /* h6 */
+
+@include h6($headergreen)
+
+       }
+       h2{
+         @include h2($headertextcolor)
+//          
+       }
+       p{
+         @include p($secondtexcolor)
+//      
+   }
+}
+}
+.divs{
+   width: 100%;
+   text-align: center;
+  
+      input{
+         width: 50%;
+      height: 50px;
+      
+   }
+   button{
+      background: $headergreen;
+border: 1px solid #E6E6E6;
+border-radius: 0px 5px 5px 0px;
+color:$mainwhite;
+padding: 10px;
+height: 50px;
+   }
+}
+}
+#bottom{
+   .bottoms{
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      ul{
+        
+         li{
+            
+         list-style: none;  
+            font-style: normal;
+            font-weight: 700;
+            margin: 10px;
+            font-size: 14px;
+            line-height: 24px;
+            /* identical to box height, or 171% */
+            
+            letter-spacing: 0.2px;
+            
+            /* second-text-color */
+            
+            color: $secondtexcolor;
+            &:first-child{
+               color: $headertextcolor;
+              
+            }
+           
+         }
+      }
+   }
+}
